@@ -25,3 +25,5 @@ print("O resultado do resto da divisao entre \(x) e \(y) igual \(total) ")
 
 total = x % 5
 print("O resultado do resto da divisao entre \(x) e  5 igual a \(total) ")
+
+print("O resultado é \(x+y)")
