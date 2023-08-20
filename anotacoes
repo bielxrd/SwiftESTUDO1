@@ -1,0 +1,19 @@
+POO 
+
+
+Polimorfismo significa muitas formas. Na orientação a objetos, isso significa que um metodo, através do Polimorfismo, tem outras formas de funcionarem e um processo diferente do metodo original
+
+Portanto, o polimorfismo permite que classes herdadas tenham um comportamento similar à classe mãe, porém viabilizando certas especializações. 
+Assim, mantém-se uma consistência entre a hierarquia das classes ao mesmo tempo em que se permite graus de especialização. 
+Além disso, o polimorfismo permite maior variabilidade da definição de métodos de uma classe, pois possibilita a definição de múltiplas versões de um mesmo método, 
+desde que cada uma delas receba uma lista de parâmetros distinta.
+
+Conceitos Principais :
+• Redefinição de métodos: ocorre quando uma classe filha redefine o comportamento de um método da classe mãe. 
+Este tipo de polimorfismo também é chamado de sobrescrita de métodos (ou overriding). 
+Na redefinição de métodos, um método é mantido com a mesma assinatura, mas sua implementação é alterada nas classes filhas.
+
+• Sobrecarga de métodos: também conhecido como overloading, este conceito trata de múltiplas definições de um método numa mesma classe. 
+A diferenciação se dá por meio de assinaturas distintas para cada “versão” do método, ou seja, apesar dos métodos possuírem o mesmo nome, 
+cada versão deles recebe uma lista de parâmetros distinta. O compilador não identifica conflito, 
+pois ele determina qual método está sendo invocado por meio da lista de parâmetros recebida (assinatura).
