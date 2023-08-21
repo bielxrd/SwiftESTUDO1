@@ -2,6 +2,7 @@ class Veiculo {
     var modelo: String?
     var marca: String?
     var ano: Int?
+    var teste: Int?
 
     func desc() {
         print("Modelo: \(self.modelo) Marca: \(self.marca) ano: \(self.ano)")
